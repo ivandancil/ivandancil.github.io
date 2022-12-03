@@ -64,11 +64,27 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    position: absolute;
 }
 
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+
+}
+
+
+.header-col-1{
+    flex-basis: 35%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+.header-col-1 img{
+    width: 60%;
+    border-radius: 200px;
+
 
 }
 
@@ -92,10 +108,12 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
+
 }
 
 .about-col-2{
     flex-basis: 60%;
+
 }
 
 .sub-title{
@@ -368,6 +386,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     .header-text{
+
         margin-top: 100%;
         font-size: 16px;
     }
@@ -412,6 +431,12 @@ nav .fa-solid{
         top: 25px;
         bottom: 25px;
         cursor: pointer;
+    }
+
+    .header-col-1{
+        flex-basis: 100%;
+        margin-top: 35%;
+        margin-left: 20%;
     }
 
      .sub-title{
