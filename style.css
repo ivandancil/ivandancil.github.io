@@ -30,7 +30,7 @@ nav{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 50%;
+    margin-left: 48%;
 }
 
 nav ul li{
@@ -43,6 +43,7 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    font-weight: 700;
     position: relative;
 }
 
@@ -122,6 +123,7 @@ nav ul li a:hover::after{
     color: #fff;
 }
 
+
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
@@ -131,7 +133,7 @@ nav ul li a:hover::after{
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
     position: relative;
 }
