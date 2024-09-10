@@ -477,6 +477,8 @@ article .icon {
 
 .contact-info-container p {
   font-size: larger;
+  cursor: pointer;
+  
 }
 
 .contact-icon {
