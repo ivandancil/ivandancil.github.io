@@ -151,7 +151,7 @@ img {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 0.2rem;
+  padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
@@ -165,7 +165,7 @@ img {
 }
 
 .button--flex {
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
 }
 
