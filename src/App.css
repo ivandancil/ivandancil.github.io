@@ -115,7 +115,7 @@ img {
 /* Reusable CSS Classes */
 
 .section {
-  padding: 6rem 0 0.2rem;
+  padding: 6rem 0 2rem;
 }
 
 .section_title {
@@ -123,7 +123,7 @@ img {
   color: var(--title-color);
 }
 
-.section_title {
+.section_subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
@@ -189,8 +189,16 @@ img {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+  
   .section {
     padding: 2rem 0 4rem;
+  }
+  
+  .section_subtitle {
+    margin-bottom: var(--mb-3);
   }
 }
 
