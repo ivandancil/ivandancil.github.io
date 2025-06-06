@@ -18,7 +18,7 @@ const Data = () => {
                 </svg>
         </h1>
         <h3 className="home_subtitle">Web Developer</h3>
-        <p className="home_description">I'm Ivan, a versatile Web Developer with a solid foundation in both Front-end and Back-end technologies.
+        <p className="home_description">A versatile Web Developer with a solid foundation in both Front-end and Back-end technologies.
           {/* On the front, I specialize in building responsive and dynamic user interfaces with React.js, TypeScript, and Material-UI.
           For the back-end, I develop powerful applications using PHP (Laravel) and Node.js, managing data efficiently with MySQL.
           My workflow is streamlined with tools like Vite and Git. */}
