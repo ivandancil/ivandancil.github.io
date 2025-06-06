@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/about/About'
+import Contact from './components/contact/Contact'
 import Header from './components/header/header'
 import Home from './components/home/Home'
 
@@ -20,6 +21,7 @@ function App() {
         <Skills/>
         <Services/>
         <Work/>
+        <Contact/>
       </main>
     </>
   )
