@@ -10,11 +10,14 @@
 
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --title-color: hsl(var(--hue), var(--sat), 90%);
+  --title-color-hover: hsl(var(--hue), var(--sat), 90%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 60%);
+  --text-container-color: hsl(var(--hue), var(--sat), 25%);
+  --text-container-hover: hsl(var(--hue), var(--sat), 30%);
+  --text-color: hsl(var(--hue), var(--sat), 90%);
+  --body-color: hsl(var(--hue), var(--sat), 18%);
+  --container-color: hsl(var(--hue), var(--sat), 90%);
 
   /* Font and Typography */
   --body-font: "Poppins", sans-serif;
@@ -149,7 +152,7 @@ img {
 /* Buttons */
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--text-container-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -157,7 +160,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: var(--text-container-hover);
 }
 
 .button_icon {

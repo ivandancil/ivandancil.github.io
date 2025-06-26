@@ -7,7 +7,7 @@
 .services_content {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--container-color);
+    background-color: var(--text-container-color);
     padding: 6rem 0 2rem 2.5rem;
 }
 
@@ -62,7 +62,7 @@
 .services_modal-content {
     width: 500px;
     position: relative;
-    background-color: var(--container-color);
+    background-color: var(--text-container-color);
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
 }
