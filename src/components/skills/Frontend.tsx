@@ -12,7 +12,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills_name">HTML</h3>
-                        <span className="skills_level">Basic</span>
+                      
                     </div>
                 </div>
 
@@ -21,7 +21,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills_name">CSS</h3>
-                        <span className="skills_level">Basic</span>
+                     
                     </div>
                 </div>
                 
@@ -30,7 +30,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills_name">JavaScript</h3>
-                        <span className="skills_level">Basic</span>
+                       
                     </div>
                 </div>
             </div>
@@ -40,8 +40,8 @@ const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills_name">Bootstrap</h3>
-                        <span className="skills_level">Basic</span>
+                        <h3 className="skills_name">TypeScript</h3>
+                       
                     </div>
                 </div>
 
@@ -49,8 +49,8 @@ const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills_name">Git</h3>
-                        <span className="skills_level">Basic</span>
+                        <h3 className="skills_name">React Js</h3>
+                      
                     </div>
                 </div>
                 
@@ -58,8 +58,17 @@ const Frontend = () => {
                     <i className="bx bx-badge-check"></i>
 
                     <div>
-                        <h3 className="skills_name">React</h3>
-                        <span className="skills_level">Basic</span>
+                        <h3 className="skills_name">Material UI</h3>
+                      
+                    </div>
+                </div>
+
+                 <div className="skills_data">
+                    <i className="bx bx-badge-check"></i>
+
+                    <div>
+                        <h3 className="skills_name">Tailwind</h3>
+                       
                     </div>
                 </div>
             </div>

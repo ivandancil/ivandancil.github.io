@@ -1,4 +1,5 @@
 import Backend from './Backend'
+import DevTools from './DevTools'
 import Frontend from './Frontend'
 import './skills.css'
 
@@ -11,6 +12,7 @@ const Skills = () => {
         <div className="skills_container container grid">
             <Frontend/>
             <Backend/>
+            <DevTools />
 
         </div>
     </section>

@@ -1,12 +1,15 @@
 import { useEffect, useState } from "react"
-import { projectsData, projectsNav } from "./Data"
+import { projectsData, projectsNav } from "./Data" // projectsData must now contain demoLink
 import WorkItems from "./WorkItems"
 
+// 1. Update the Project interface to include demoLink
 interface Project {
   id: number;
   image: string;
   title: string;
   category: string;
+  demoLink: string; // <--- ADD THIS LINE
+  repoLink: string;
 }
 
 const Works = () => {
@@ -16,12 +19,12 @@ const Works = () => {
 
   useEffect(() => {
     if (item.name === "all") {
-      setProjects(projectsData);
+      setProjects(projectsData as Project[]); // Cast to Project[] if projectsData doesn't explicitly declare types
     } else {
       const newProjects = projectsData.filter((project) => {
         return project.category.toLowerCase() === item.name;
       });
-      setProjects(newProjects);
+      setProjects(newProjects as Project[]); // Cast to Project[]
     }
   }, [item]);
 
@@ -30,31 +33,31 @@ const Works = () => {
     setActive(index);
   };
 
-
   return (
-   <div>
-     <div className="work_filters">
-      {projectsNav.map((item, index) => {
-        return ( 
-          <span onClick={(e) => {
-            handleClick(e, index);
-          }}
-           className= {`${active === index ? 'active-work' : ''} work_item`}
-           key={index}
-          >
+    <div>
+      <div className="work_filters">
+        {projectsNav.map((item, index) => {
+          return (
+            <span onClick={(e) => {
+              handleClick(e, index);
+            }}
+            className= {`${active === index ? 'active-work' : ''} work_item`}
+            key={index}
+            >
               {item.name}
-          </span>
-        );
-      })}
-    </div>
+            </span>
+          );
+        })}
+      </div>
 
-    <div className="work_container container grid">
-      {projects.map((item) => {
-        return <WorkItems item={item} key={item.id}/>;
-      })}
+      <div className="work_container container grid">
+        {projects.map((item) => {
+          // No change needed here, as 'item' (which is a Project) now correctly has demoLink
+          return <WorkItems item={item} key={item.id}/>;
+        })}
+      </div>
     </div>
-   </div>
   )
 }
 
-export default Works
+export default Works;
