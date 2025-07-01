@@ -27,7 +27,8 @@ export const projectsData = [
         image: Work3,
         title: 'React Dashboard',
         category: 'design',
-        demoLink: "#", // Placeholder: Replace with actual demo or GitHub link
+        demoLink: "https://ivandancil.github.io/ResponsiveDashboard/", // Placeholder: Replace with actual demo or GitHub link
+        repoLink: "https://github.com/ivandancil/ResponsiveDashboard.git",
     },
     {
         id: 4,
@@ -60,13 +61,13 @@ export const projectsNav = [
     {
         name: 'all',
     },
-    {
-        name: 'web', // Standardized to lowercase
-    },
-    {
-        name: 'app',
-    },
-    {
-        name: 'design',
-    },
+    // {
+    //     name: 'web',
+    // },
+    // {
+    //     name: 'app',
+    // },
+    // {
+    //     name: 'design',
+    // },
 ]
